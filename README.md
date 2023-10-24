@@ -3,3 +3,18 @@ The Customer Churn Analysis project aims to analyze customer churn patterns with
 
 My Objective is to do analyze historical customer data to recognize patterns and trends related to churn.
 
+## Step One
+created a DWH for the collected dataset in sql server.
+
+<img src="https://github.com/mostafayousry589/Bank-Churn/blob/main/DWH%20Schema.png">
+
+## step Two
+Made an ETL process to transfer dataset from source to the DWH using SSIS
+
+
+<img src="https://github.com/mostafayousry589/Bank-Churn/blob/main/SSIS.png">
+
+## step Three
+Loaded the DWH on Power bi and made EDA
+
+<img src="https://github.com/mostafayousry589/Bank-Churn/blob/main/Power%20bi.png">
